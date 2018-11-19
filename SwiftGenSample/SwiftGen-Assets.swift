@@ -18,6 +18,25 @@
 
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 internal enum Asset {
+  internal enum Animal {
+
+    internal static let animalMark01Buta = ImageAsset(name: "animal/animal_mark01_buta")
+    internal static let animalMark02Kuma = ImageAsset(name: "animal/animal_mark02_kuma")
+    internal static let animalMark03Inu = ImageAsset(name: "animal/animal_mark03_inu")
+    internal static let animalMark04Neko = ImageAsset(name: "animal/animal_mark04_neko")
+    internal static let animalMark05Zou = ImageAsset(name: "animal/animal_mark05_zou")
+    internal static let animalMark06Uma = ImageAsset(name: "animal/animal_mark06_uma")
+    internal static let animalMark07Lion = ImageAsset(name: "animal/animal_mark07_lion")
+    internal static let animalMark08Kaba = ImageAsset(name: "animal/animal_mark08_kaba")
+    internal static let animalMark09Tora = ImageAsset(name: "animal/animal_mark09_tora")
+    internal static let animalMark10Usagi = ImageAsset(name: "animal/animal_mark10_usagi")
+    internal static let animalMark11Panda = ImageAsset(name: "animal/animal_mark11_panda")
+    internal static let animalMark12Saru = ImageAsset(name: "animal/animal_mark12_saru")
+    internal static let animalMark13Penguin = ImageAsset(name: "animal/animal_mark13_penguin")
+    internal static let animalMark14Hitsuji = ImageAsset(name: "animal/animal_mark14_hitsuji")
+    internal static let animalMark15Koala = ImageAsset(name: "animal/animal_mark15_koala")
+    internal static let animalMark16Risu = ImageAsset(name: "animal/animal_mark16_risu")
+  }
   internal enum Number {
 
     internal static let numberDigtal0 = ImageAsset(name: "number/number_digtal0")
@@ -38,6 +57,22 @@ internal enum Asset {
   internal static let allDataAssets: [DataAsset] = [
   ]
   internal static let allImages: [ImageAsset] = [
+    Animal.animalMark01Buta,
+    Animal.animalMark02Kuma,
+    Animal.animalMark03Inu,
+    Animal.animalMark04Neko,
+    Animal.animalMark05Zou,
+    Animal.animalMark06Uma,
+    Animal.animalMark07Lion,
+    Animal.animalMark08Kaba,
+    Animal.animalMark09Tora,
+    Animal.animalMark10Usagi,
+    Animal.animalMark11Panda,
+    Animal.animalMark12Saru,
+    Animal.animalMark13Penguin,
+    Animal.animalMark14Hitsuji,
+    Animal.animalMark15Koala,
+    Animal.animalMark16Risu,
     Number.numberDigtal0,
     Number.numberDigtal1,
     Number.numberDigtal2,
