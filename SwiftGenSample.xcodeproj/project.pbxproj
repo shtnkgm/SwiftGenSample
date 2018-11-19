@@ -12,6 +12,7 @@
 		9724EB6E21A30AD100124675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9724EB6C21A30AD100124675 /* Main.storyboard */; };
 		9724EB7021A30AD200124675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9724EB6F21A30AD200124675 /* Assets.xcassets */; };
 		9724EB7321A30AD200124675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9724EB7121A30AD200124675 /* LaunchScreen.storyboard */; };
+		9724EB7C21A30C5D00124675 /* SwiftGen-Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9724EB7B21A30C5D00124675 /* SwiftGen-Assets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9724EB6F21A30AD200124675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9724EB7221A30AD200124675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9724EB7421A30AD200124675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9724EB7B21A30C5D00124675 /* SwiftGen-Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftGen-Assets.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		9724EB6721A30AD100124675 /* SwiftGenSample */ = {
 			isa = PBXGroup;
 			children = (
+				9724EB7B21A30C5D00124675 /* SwiftGen-Assets.swift */,
 				9724EB6821A30AD100124675 /* AppDelegate.swift */,
 				9724EB6A21A30AD100124675 /* ViewController.swift */,
 				9724EB6C21A30AD100124675 /* Main.storyboard */,
@@ -74,6 +77,7 @@
 				9724EB6121A30AD100124675 /* Sources */,
 				9724EB6221A30AD100124675 /* Frameworks */,
 				9724EB6321A30AD100124675 /* Resources */,
+				9724EB7A21A30C4000124675 /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -130,11 +134,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9724EB7A21A30C4000124675 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "swiftgen\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9724EB6121A30AD100124675 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9724EB7C21A30C5D00124675 /* SwiftGen-Assets.swift in Sources */,
 				9724EB6B21A30AD100124675 /* ViewController.swift in Sources */,
 				9724EB6921A30AD100124675 /* AppDelegate.swift in Sources */,
 			);

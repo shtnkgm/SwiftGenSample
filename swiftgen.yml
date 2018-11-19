@@ -1,0 +1,8 @@
+xcassets:
+  inputs:
+    - SwiftGenSample/Assets.xcassets
+  outputs:
+    - templateName: swift4
+      params:
+        allValues: true
+      output: SwiftGenSample/SwiftGen-Assets.swift
